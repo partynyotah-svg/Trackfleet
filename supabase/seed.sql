@@ -1,0 +1,2 @@
+-- Optional development seed: create records only after an authenticated staff user exists.
+-- Intentionally empty to avoid hard-coded accounts or credentials.

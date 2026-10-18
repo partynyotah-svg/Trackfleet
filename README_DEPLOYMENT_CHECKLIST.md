@@ -1,0 +1,11 @@
+# Deployment checklist
+- [ ] Environment variables are configured separately for local, preview, and production.
+- [ ] Database migration applied and verified.
+- [ ] First administrator promoted through trusted SQL operation.
+- [ ] Email authentication and redirect URLs tested.
+- [ ] `npm test` passes.
+- [ ] `npm run build` passes.
+- [ ] RLS tested with at least two different user roles.
+- [ ] No secrets committed to Git.
+- [ ] Backups, monitoring, privacy notice, and incident contact are configured.
+- [ ] Smoke test `/api/health` after deployment.
